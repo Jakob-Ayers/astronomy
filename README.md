@@ -1,2 +1,2 @@
 # Astronomy
-website for stuf for my astronomy class
+website for stuff for my astronomy class
