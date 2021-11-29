@@ -7,7 +7,14 @@ body {
     margin: 2.5vw;
 }
 
-header { 
+a {
+    color: #0000ff;
+}
+a:visited {
+    color: #0000ff;
+}
+
+header, nav, footer { 
     text-align: center;
 }
 
@@ -36,6 +43,24 @@ header {
     text-align: right;
 }
 
-footer {
-    text-align: center;
+footer a {
+    text-decoration: none;
+
+    background-color: #ececec;
+    color: #0000ff;
+}
+
+footer a strong {
+    background-color: #0000ff;
+    color: #ececec
+}
+
+footer a:hover {
+    background-color: #0000ff;
+    color: #ececec;
+}
+
+footer a:hover strong {
+    background-color: #ececec;
+    color: #0000ff;
 }
