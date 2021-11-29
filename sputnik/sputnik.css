@@ -1,0 +1,16 @@
+body {
+    border: 1px solid black;
+
+    font-size: 1.5vw;
+
+    padding: 2.5vw;
+    margin: 2.5vw;
+}
+
+header { 
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+}
