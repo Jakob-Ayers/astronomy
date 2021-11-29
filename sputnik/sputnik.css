@@ -11,6 +11,27 @@ header {
     text-align: center;
 }
 
+.photo {
+    width: 33vw;
+}
+
 .grid-container {
     display: grid;
+    grid-template-areas: 
+    'time time pic1'
+    'pic2 what what';
+}
+
+.time {
+    grid-area: time;
+}
+.pic1 {
+    grid-area: pic1;
+}
+.pic2 {
+    grid-area: pic2;
+}
+.what {
+    grid-area: what;
+    text-align: right;
 }
