@@ -1,7 +1,41 @@
-header {
+body {
+    padding: 2.5vw;
+    margin: 2.5vw;
+
+    border: 1px solid black;
+    font-size: 1.5vw;
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+header, nav, footer {
     text-align: center;
 }
 
-footer {
-    text-align: center;
+footer a {
+    color: #0000ff;
+}
+
+footer a {
+    text-decoration: none;
+
+    background-color: #ececec;
+    color: #0000ff;
+}
+
+footer a strong {
+    background-color: #0000ff;
+    color: #ececec
+}
+
+footer a:hover {
+    background-color: #0000ff;
+    color: #ececec;
+}
+
+footer a:hover strong {
+    background-color: #ececec;
+    color: #0000ff;
 }
