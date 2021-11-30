@@ -7,6 +7,7 @@
     grid-template-areas: 
     'time time pic1'
     'pic2 what what';
+    grid-gap: 10px;
 }
 
 .time {
@@ -20,5 +21,4 @@
 }
 .what {
     grid-area: what;
-    text-align: right;
 }
