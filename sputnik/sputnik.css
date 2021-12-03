@@ -1,23 +1,3 @@
-body {
-    border: 1px solid black;
-
-    font-size: 1.5vw;
-
-    padding: 2.5vw;
-    margin: 2.5vw;
-}
-
-a {
-    color: #0000ff;
-}
-a:visited {
-    color: #0000ff;
-}
-
-header, nav, footer { 
-    text-align: center;
-}
-
 .photo {
     width: 33vw;
 }
@@ -27,6 +7,7 @@ header, nav, footer {
     grid-template-areas: 
     'time time pic1'
     'pic2 what what';
+    grid-gap: 10px;
 }
 
 .time {
@@ -40,27 +21,4 @@ header, nav, footer {
 }
 .what {
     grid-area: what;
-    text-align: right;
-}
-
-footer a {
-    text-decoration: none;
-
-    background-color: #ececec;
-    color: #0000ff;
-}
-
-footer a strong {
-    background-color: #0000ff;
-    color: #ececec
-}
-
-footer a:hover {
-    background-color: #0000ff;
-    color: #ececec;
-}
-
-footer a:hover strong {
-    background-color: #ececec;
-    color: #0000ff;
 }

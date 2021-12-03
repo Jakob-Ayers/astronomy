@@ -14,15 +14,14 @@ header, nav, footer {
     text-align: center;
 }
 
-footer a {
-    color: #0000ff;
-}
 
 footer a {
     text-decoration: none;
 
     background-color: #ececec;
     color: #0000ff;
+
+    margin-right: 10px;
 }
 
 footer a strong {
