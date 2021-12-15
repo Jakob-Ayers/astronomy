@@ -1,3 +1,26 @@
 header > h1 {
     text-align: center;
 }
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #0000ff;
+    background-color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+}
+
+footer a strong {
+    background-color: #0000ff;
+    color: #bdbdbd;
+}
+footer a:hover {
+    color: #bdbdbd;
+    background-color: #0000ff;
+}
+footer a:hover strong {
+    color:#0000ff;
+    background-color: #bdbdbd;
+}
