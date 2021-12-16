@@ -1,4 +1,23 @@
+html{
+    font-size: 130%;
+}
+
+body {
+    margin: 40px;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
 header > h1 {
+    text-align: center;
+}
+
+nav {
     text-align: center;
 }
 
@@ -10,6 +29,7 @@ footer a {
     color: #0000ff;
     background-color: #bdbdbd;
     border: 1px solid #bdbdbd;
+    margin-right: 10px;
 }
 
 footer a strong {
