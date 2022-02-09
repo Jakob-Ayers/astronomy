@@ -12,4 +12,34 @@
     a {
         @apply underline
     }
+    footer {
+        text-align: center;
+    }
+    footer a{
+        color: #959da9;
+        border: 1px solid #959da9;
+        background-color: #ffffff;
+
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    footer a strong {
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        background-color: #959da9; 
+
+        padding: 4px;
+        border-radius: 5px;
+    }
+    footer a:hover {
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        background-color: #959da9;  
+    }
+    footer a:hover strong {
+        color: #959da9;
+        border: 1px solid #959da9;
+        background-color: #ffffff; 
+    }
 }
