@@ -542,6 +542,10 @@ footer a:hover strong {
   aspect-ratio: 16 / 9;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .w-3\/4 {
   width: 75%;
 }
